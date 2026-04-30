@@ -121,6 +121,24 @@ blockquote {
 
 
 /* Call To Action */
+.cta {
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin: 80px auto;
+    color: #E5E7EB;
+    width: 70%;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between; 
+}
 
+.cta h2 {
+    color: #F9FAF8;
+}
+
+.cta button {
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+}
 
 /* Footer */
