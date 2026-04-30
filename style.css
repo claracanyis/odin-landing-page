@@ -64,7 +64,35 @@ button {
 }
 
 /* Products */
+.gallery {
+    padding: 60px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px 
+}
 
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+.product {
+    width: 200px;
+    text-align: center;
+}
+
+.product p {
+    margin: 10px 0;
+}
+
+.product img {
+    border-radius: 8px;
+}
 
 
 /* Quote */
